@@ -16,7 +16,7 @@ pigeons_by_name = Hash.new(0)
     detail_hash.each do |detail_key, detail_array|
       detail_array.each do |name|
         pigeons_by_name.each do |pigeon_name, value_hash|
-          binding.pry
+          #binding.pry
         if name == pigeon_name
           pigeons_by_name[name][pidgeon_detail] = []
           pigeons_by_name[name][pidgeon_detail] << detail_key

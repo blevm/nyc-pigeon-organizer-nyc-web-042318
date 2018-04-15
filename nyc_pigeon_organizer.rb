@@ -19,7 +19,7 @@ pigeons_by_name = Hash.new(0)
           #binding.pry
         if name == pigeon_name
           pigeons_by_name[name][pigeon_detail] = []
-          pigeons_by_name[name][pigeon_detail] << detail_key.to_str
+          pigeons_by_name[name][pigeon_detail] << detail_key.to_s
         end
       end
       end

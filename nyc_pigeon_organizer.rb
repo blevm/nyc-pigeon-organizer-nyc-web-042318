@@ -29,7 +29,7 @@ pigeons_by_name = Hash.new(0)
       detail_array.each do |name|
         pigeons_by_name.each do |pigeon_name, value_hash|
 
-          if name == pigeon_name && (pigeons_by_name[name][pigeon_detail]).include?(detail_key) === false
+          if (pigeons_by_name[name][pigeon_detail]).include?(detail_key) === false
             (pigeons_by_name[name][pigeon_detail]).push(detail_key)
           end
         end

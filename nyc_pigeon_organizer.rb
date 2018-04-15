@@ -18,8 +18,8 @@ pigeons_by_name = Hash.new(0)
         pigeons_by_name.each do |pigeon_name, value_hash|
           #binding.pry
         if name == pigeon_name
-          pigeons_by_name[name][pidgeon_detail] = detail_key
-          #pigeons_by_name[name][pidgeon_detail] << detail_key
+          pigeons_by_name[name][pigeon_detail] = detail_key
+          #pigeons_by_name[name][pigeon_detail] << detail_key
         end
       end
       end
